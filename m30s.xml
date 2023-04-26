@@ -6,16 +6,15 @@
           revision="lineage-20.0" />
 
   <remote name="GalaxyM30s"
-          fetch="https://github.com/GalaxyM30s"
+          fetch="https://github.com/SamsungM30s"
           revision="thirteen" />
 
   <remote name="vendor"
           fetch="https://github.com/GalaxyM30s"
-          revision="android-13.0" />
+          revision="lineage-20.0" />
 
   <!-- device -->
   <project path="device/samsung/m307f" name="android_device_samsung_m307f" remote="GalaxyM30s" />
-  <project path="device/samsung/m307fn" name="android_device_samsung_m307fn" remote="GalaxyM30s" />
   <project path="device/samsung/m30s-common" name="android_device_samsung_m30s-common" remote="GalaxyM30s" />
 
   <project path="device/samsung_slsi/sepolicy" name="android_device_samsung_slsi_sepolicy" remote="lineage" />
@@ -25,7 +24,6 @@
 
   <!-- vendor -->
   <project path="vendor/samsung/m307f" name="android_vendor_samsung_m307f" remote="vendor" />
-  <project path="vendor/samsung/m307fn" name="android_vendor_samsung_m307fn" remote="vendor" />
   <project path="vendor/samsung/m30s-common" name="android_vendor_samsung_m30s-common" remote="vendor" />
   
   <!-- hardware -->
