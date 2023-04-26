@@ -3,14 +3,10 @@
 
   <remote name="lineage"
           fetch="https://github.com/LineageOS"
-          revision="lineage-20.0" />
+          revision="lineage-20" />
 
   <remote name="GalaxyM30s"
           fetch="https://github.com/SamsungM30s"
-          revision="thirteen" />
-
-  <remote name="vendor"
-          fetch="https://github.com/GalaxyM30s"
           revision="lineage-20.0" />
 
   <!-- device -->
@@ -23,8 +19,8 @@
   <project path="kernel/samsung/m30s" name="android_kernel_samsung_m30s" remote="GalaxyM30s" />
 
   <!-- vendor -->
-  <project path="vendor/samsung/m307f" name="android_vendor_samsung_m307f" remote="vendor" />
-  <project path="vendor/samsung/m30s-common" name="android_vendor_samsung_m30s-common" remote="vendor" />
+  <project path="vendor/samsung/m307f" name="android_vendor_samsung_m307f" remote="GalaxyM30s" />
+  <project path="vendor/samsung/m30s-common" name="android_vendor_samsung_m30s-common" remote="GalaxyM30s" />
   
   <!-- hardware -->
   <project path="hardware/samsung" name="android_hardware_samsung" remote="GalaxyM30s" />
